@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.name {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  padding-left: 10px;
+}
+.team-logo-name-container {
+  border: 1px solid #ffffff;
+  display: flex;
+  background-color: ;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+.team-image {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-image {
+    width: 100px;
+    height: 100px;
+  }
+  .team-logo-name-container {
+    width: 400px;
+    height: 200px;
+  }
+}
